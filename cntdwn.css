@@ -87,7 +87,11 @@ img {
     float: right;
     position: relative;
     top: -3em;
+<<<<<<< HEAD
     height: 45em;
+=======
+    height: 20rem;
+>>>>>>> b71b1888ff7089808f6d39441f6a3730496418b6
     margin-right: 14%;
 }
 
