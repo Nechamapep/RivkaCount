@@ -1,4 +1,5 @@
 (function () {
+
     let x = setInterval(function () {
         const wedDate = new Date("december 4, 2023 18:00:00").getTime();
         let curDate = new Date().getTime();

@@ -86,7 +86,8 @@ img {
     width: 33%;
     float: right;
     position: relative;
-    height: 25em;
+    top: -3em;
+    height: 35em;
     margin-right: 14%;
 }
 
