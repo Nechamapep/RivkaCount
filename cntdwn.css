@@ -82,7 +82,7 @@ div {
 }
 
 img {
-
+    top: -3em;
     width: 35%;
     float: right;
     position: relative;
