@@ -1,0 +1,116 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+h1,
+h2,
+h3,
+div,
+p {
+    color: #ff0040;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: -.5px -.5px 0 darkgreen, .5px -.5px 0 #F4F4F4, -.5px .5px 0 #F4F4F4, .5px .5px 0 #F4F4F4;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    margin-left: 40%;
+}
+
+header>h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+p,
+.timeLeft {
+    float: left;
+}
+
+p,
+div {
+    margin-left: 4em;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#only {
+    margin-left: 4em;
+    float: left;
+    margin-top: 1em;
+}
+
+#days {
+    padding-top: 3em;
+    display: block;
+    margin-left: 4em;
+}
+
+
+#hours {
+    display: block;
+    margin-left: 4em;
+}
+
+#mins {
+    display: block;
+}
+
+#secs {
+    display: block;
+}
+
+img {
+
+    width: 33%;
+    float: right;
+    position: relative;
+    height: 25em;
+    margin-right: 14%;
+}
+
+#luchins {
+    position: absolute;
+    right: 95px;
+    bottom: 49px;
+}
+
+.confetti {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    user-select: none;
+    position: absolute;
+    z-index: 10;
+}
+
+/* .carousel {
+    margin-left: 10%;
+    display: flex;
+    width: 40%;
+    float: left;
+    height: 21em;
+    margin-right: 10%; 
+}*/
