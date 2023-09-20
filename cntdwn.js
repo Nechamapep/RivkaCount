@@ -23,8 +23,6 @@
         unfade(secElem);
     }, 1000);
 
-
-
     canvas = document.getElementById("canvas");
     ctx = canvas.getContext("2d");
     canvas.width = window.innerWidth;
@@ -125,9 +123,10 @@
             ctx.setTransform(1, 0, 0, 1, 0, 0);
         });
 
-
         window.requestAnimationFrame(render);
     };
+    const audio = new Audio("Od Yishama.mp3");
+    audio.loop = true;
 
     //---------Execution--------
     initConfetti();
@@ -141,6 +140,7 @@
     //------------Click------------
     window.addEventListener('click', function () {
         initConfetti();
+        audio.play();
     });
     function unfade(element) {
         var op = 0.1;  // initial opacity
